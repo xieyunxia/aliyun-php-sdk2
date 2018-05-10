@@ -1,5 +1,5 @@
 {
-  "name": "xieyunxia/aliyun-php-sdk",
+  "name": "xyx/aliyun-php-sdk",
   "description": "aliyun-php-sdk-vod composer pack",
   "keywords": [
     "aliyun",
@@ -23,7 +23,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "vod\\Request\\V20170321\\": "aliyun-php-sdk-vod/vod/Request/V20170321/"
+      "vod\\Request\\V20170321\\": "aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/"
     }
   }
 }
