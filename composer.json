@@ -7,7 +7,6 @@
     "aliyunvod",
     "vod"
   ],
-  "license": "MIT",
   "homepage": "https://www.aliyun.com",
   "authors": [
     {
@@ -21,9 +20,15 @@
   "minimum-stability": "master",
   "repositories": [
   ],
+  "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    },
   "autoload": {
-    "psr-4": {
-      "": "aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/"
-    }
-  }
+        "psr-4": {
+            "": "src"
+        },
+        "files": [
+			    "aliyun-php-sdk-core/Config.php"
+		    ]
+   }
 }
