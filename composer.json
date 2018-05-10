@@ -23,7 +23,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "vod\\Request\\V20170321\\": "aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/"
+      "": "aliyun-php-sdk/aliyun-php-sdk-vod/vod/Request/V20170321/"
     }
   }
 }
