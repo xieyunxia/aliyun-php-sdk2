@@ -1,0 +1,19 @@
+{
+  "name": "xieyunxia/aliyun-php-sdk",
+  "authors": [
+    {
+      "name": "xieyunxia",
+      "email": "xieyunxia@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "repositories": [
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src"
+    }
+  }
+}
