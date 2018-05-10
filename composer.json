@@ -1,9 +1,18 @@
 {
   "name": "xieyunxia/aliyun-php-sdk",
+  "description": "aliyun-php-sdk-vod composer pack",
+  "keywords": [
+    "aliyun",
+    "aliyun-php-sdk-vod",
+    "aliyunvod",
+    "vod"
+  ],
+  "license": "MIT",
+  "homepage": "https://www.aliyun.com",
   "authors": [
     {
       "name": "xieyunxia",
-      "email": "xieyunxia@qq.com"
+      "email": "347312270@qq.com"
     }
   ],
   "require": {
@@ -13,7 +22,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "": "src"
+      "vod\\Request\\V20170321\\": "aliyun-php-sdk-vod/vod/Request/V20170321/"
     }
   }
 }
